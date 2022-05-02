@@ -66,7 +66,7 @@
     }
 </style>
 
-{%- style -%} .section-header { background-color: {{section.settings.color_title}}; margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px; } @media screen and (min-width: 750px) { .section-header { margin-bottom: {{ section.settings.margin_bottom
+{%- style -%} .section-header { background: {{section.settings.color_title}}; margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px; } @media screen and (min-width: 750px) { .section-header { margin-bottom: {{ section.settings.margin_bottom
 }}px; } } {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
