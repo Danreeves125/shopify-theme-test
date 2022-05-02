@@ -118,9 +118,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "accent-1",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
